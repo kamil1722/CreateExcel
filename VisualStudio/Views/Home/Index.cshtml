@@ -1,0 +1,14 @@
+﻿@model IList<MyExel.Models.ExelViewModel>
+@{
+    ViewBag.Title = "Index";
+}
+@using (Html.BeginForm("ExportToExcel", "Exel", FormMethod.Post))
+{
+
+<div class="text-center">
+    <input type="submit" value="Download" class="button" />
+</div>
+
+
+
+}
