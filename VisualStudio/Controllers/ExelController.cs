@@ -105,7 +105,7 @@ namespace MyExel.Controllers
                 using (MemoryStream stream = new MemoryStream())
                 {
                     workbook.SaveAs(stream);
-                    return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "ImportData.xlsx");
+                    return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "ImportData1.xlsx");
                 }
             }
         }

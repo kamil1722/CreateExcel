@@ -7699,11 +7699,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User_Kamil\\source\\repos\\Import Exel (Core)\\CreateExel\\CreateExcel\\VisualStudio\\MyExel.csproj",
+      "projectUniqueName": "C:\\Users\\User_Kamil\\source\\repos\\Exel\\CreateExel\\VisualStudio\\MyExel.csproj",
       "projectName": "MyExel",
-      "projectPath": "C:\\Users\\User_Kamil\\source\\repos\\Import Exel (Core)\\CreateExel\\CreateExcel\\VisualStudio\\MyExel.csproj",
+      "projectPath": "C:\\Users\\User_Kamil\\source\\repos\\Exel\\CreateExel\\VisualStudio\\MyExel.csproj",
       "packagesPath": "C:\\Users\\User_Kamil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User_Kamil\\source\\repos\\Import Exel (Core)\\CreateExel\\CreateExcel\\VisualStudio\\obj\\",
+      "outputPath": "C:\\Users\\User_Kamil\\source\\repos\\Exel\\CreateExel\\VisualStudio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User_Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
