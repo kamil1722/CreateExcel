@@ -93,7 +93,7 @@ namespace MyExel.Controllers
             {
                 newDt.Rows.Add(insertExelList.Code, insertExelList.NameSMO, insertExelList.NameMO, insertExelList.NameMKB);
             }
-
+            //test
             using (XLWorkbook workbook = new XLWorkbook())
             {
                 var firstWs = workbook.AddWorksheet(newDt);
@@ -105,7 +105,7 @@ namespace MyExel.Controllers
                 using (MemoryStream stream = new MemoryStream())
                 {
                     workbook.SaveAs(stream);
-                    return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "ImportData.xlsx");
+                    return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "ImportData1.xlsx");
                 }
             }
         }
